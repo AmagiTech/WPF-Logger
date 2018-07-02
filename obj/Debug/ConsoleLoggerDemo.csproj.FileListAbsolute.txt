@@ -1,0 +1,16 @@
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\bin\Debug\ConsoleLoggerDemo.exe.config
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\bin\Debug\ConsoleLoggerDemo.exe
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\bin\Debug\ConsoleLoggerDemo.pdb
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\App.g.cs
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo_MarkupCompile.cache
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo_MarkupCompile.lref
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo.g.resources
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo.Properties.Resources.resources
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo.csproj.GenerateResource.Cache
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo.exe
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo.pdb
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\Views\LoggerConsoleView.g.cs
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\Views\LoggerConsoleView.baml
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\Views\MainWindow.g.cs
+c:\users\developer\documents\visual studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\Views\MainWindow.baml
+C:\Users\developer\Documents\Visual Studio 2015\Projects\ConsoleLoggerDemo\ConsoleLoggerDemo\obj\Debug\ConsoleLoggerDemo.csprojResolveAssemblyReference.cache

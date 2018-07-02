@@ -1,0 +1,32 @@
+﻿<Window x:Class="ConsoleLoggerDemo.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsoleLoggerDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="600">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="4"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Error" Background="Red" Command="{Binding ErrorCommand}"/>
+            <Button Content="Info" Background="SkyBlue" Command="{Binding InfoCommand}"/>
+            <Button Content="Success" Background="DarkSeaGreen" Command="{Binding SuccessCommand}"/>
+            <Button Content="Warning" Background="Orange" Command="{Binding WarningCommand}"/>
+            <Button Content="Log" Background="White" Command="{Binding LogCommand}"/>
+        </StackPanel>
+        <Frame Content="{Binding Logger}" Grid.Row="1"/>
+
+    </Grid>
+</Window>

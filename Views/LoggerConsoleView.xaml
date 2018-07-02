@@ -1,0 +1,32 @@
+﻿<Page x:Class="ConsoleLoggerDemo.Views.LoggerConsoleView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ConsoleLoggerDemo"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="LoggerConsole">
+    <Border BorderThickness="1" BorderBrush="Black" Padding="4">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Background="LightGray">
+                <Button Content="Clear" Margin="4" Padding="4" Command="{Binding ClearCommand}"/>
+            </StackPanel>
+            <ScrollViewer Margin="0" Background="White" Grid.Row="1" Name="Scroll">
+                <StackPanel>
+                    <ItemsControl  ItemsSource="{Binding Logger.Logs,Mode=OneWay}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBox Text="{Binding Text,Mode=OneWay}" Foreground="{Binding Foreground}" FontFamily="Consolas" Background="{Binding Background}" Margin="2"  TextWrapping="Wrap" Padding="4" BorderThickness="0"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Border>
+</Page>
